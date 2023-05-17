@@ -8,6 +8,11 @@
     list-style-type: none;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -74,7 +79,61 @@ h1{
 img{
     width: 500px;
     height: auto;
-    transform: translate(700px, 70px);
+    transform: translate(700px, 10px);
 }
 
 /* section contact */
+
+.sec-home .text-contact{
+    position: static;
+}
+
+.sec-contact img{
+    width: 25px;
+}
+
+.info{
+    padding: 4rem;
+}
+
+.columns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.max-contact{
+    padding: 3rem 0 1rem 0;
+    text-align: center;
+}
+
+.sec-contact .col-left{
+    background-color: rgb(60,188,20);
+    color: #fff;
+    width: 400px;
+    margin: 1rem 3rem 0 0;
+    height: 400px;
+}
+
+.col-left .info{
+    padding: 18px;
+}
+
+.col-left .info span{
+    padding-left: 10px;
+}
+
+.col-left .info img{
+    transform: translateX(0px);
+}
+
+.sec-contact .col-right{
+    height: 400px;
+    width: 600px;
+    display: flex;
+}
+
+.col-right #row1{
+    width: 18rem;
+}
+
